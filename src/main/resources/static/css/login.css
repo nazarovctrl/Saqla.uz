@@ -1,0 +1,38 @@
+body {
+    background-image: url('https://s1.1zoom.me/big0/824/Many_Library_Book_Glasses_Bokeh_586542_1280x853.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.login-container {
+    backdrop-filter: blur(5px);
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    background: #fffa;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: #555;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #444;
+}
